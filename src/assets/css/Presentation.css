@@ -1,0 +1,60 @@
+.presentation {
+  padding: 2rem;
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}       
+.presentation-title {
+  font-size: 48px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #48276F 2.53%, #150F24 16.14%, #48276F 32.56%, #150F24 45.01%, #48276F 56.62%, #000 80.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -1.92px;
+  margin-bottom: 5px;
+}
+
+.presentation-description {
+  font-size: 24px;
+  font-weight: 400;
+  color: #251535;
+  text-align: center;
+}
+.presentation-content-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.presentation-card{
+    flex-shrink: 0;
+    color: #fff;
+    background-color: #2D0C44;
+    width: 436px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.presentation-card-content-title{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+
+}
+.presentation-card-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.presentation-card-title-footer{
+    text-align: center;
+}
+
